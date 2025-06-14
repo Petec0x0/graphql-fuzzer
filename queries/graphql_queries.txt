@@ -1,0 +1,35 @@
+mutation ImportPaste($host: String!, $port: Int!, $path: String!, $scheme: String!) {
+  importPaste(host: $host, port: $port, path: $path, scheme: $scheme) {
+    result
+  }
+}
+
+mutation CreatePaste($title: String!, $content: String!, $public: Boolean!, $burn: Boolean!) {
+  createPaste(title: $title, content: $content, public: $public, burn: $burn) {
+    paste {
+      id
+      content
+      title
+      burn
+    }
+  }
+}
+
+mutation UploadPaste($filename: String!, $content: String!) {
+  uploadPaste(filename: $filename, content: $content) {
+    result
+  }
+}
+
+query getPastes {
+  pastes(public: false) {
+    id
+    title
+    content
+    ipAddr
+    userAgent
+    owner {
+      name
+    }
+  }
+}
